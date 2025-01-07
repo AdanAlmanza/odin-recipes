@@ -1,28 +1,77 @@
 *{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-  
-  
-
-    background-color: rgb(24, 24, 24);
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    color: white;
+    background-color: peachpuff;
+}
+/* index title*/
+
+.title{
+    background-color: #FFF8DC;
+    margin: 10px 185px;
+    padding: 10px;
+    text-decoration: underline;
+    font-family:  serif;
+
 }
 
+/*image*/
+
+img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid #FFF8DC;
+    margin: 10px;
+}
+
+/*anchors*/
 a{
-  color:rgb(56, 139, 232);
-  
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
-li{
-    text-align: justify;
-    margin-left: 30ch;
+/*div for the image*/
+ div.recipes{
+    display: block;
+    width: auto;
+    height: max-content;
+
+ }
+ 
+ /* the inline for the images*/
+.recipes div{
+    display: inline-block;
+    margin-top: 100px;
 }
 
-h1{
-    padding: 25px;
-    background-color: grey;
-    border-bottom: 5px solid white;
+
+
+/* list center bullet point/ numbs*/
+ li{
+   padding: 8px 10px;
+   
+   list-style-position: inside;
+   text-align: auto;
+
+
 }
+
+.recipes h2{
+    color: #5C4033;
+    background-color: #FFF8DC;
+}
+/* background for the headers of the recipes*/
+.title-recipes{
+    background-color: #FFF8DC;
+    margin: 10px 185px;
+
+}
+
+.recipe-details h2{
+    background-color: #FFF8DC;
+    margin: 10px 185px;
+
+
+}
+
+
+    
