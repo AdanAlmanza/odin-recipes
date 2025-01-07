@@ -1,0 +1,28 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  
+  
+
+    background-color: rgb(24, 24, 24);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+a{
+  color:rgb(56, 139, 232);
+  
+}
+
+li{
+    text-align: justify;
+    margin-left: 30ch;
+}
+
+h1{
+    padding: 25px;
+    background-color: grey;
+    border-bottom: 5px solid white;
+}
